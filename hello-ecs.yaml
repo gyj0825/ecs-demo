@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: nginx-helloworld
-        image: registry.ocplab.cn/ecsdemo/nginx-hello-ecs:latest
+        image: registry.ocplab.cn/ecsdemo/words-demo-web:version2
         ports:
         - containerPort: 80
 ---
